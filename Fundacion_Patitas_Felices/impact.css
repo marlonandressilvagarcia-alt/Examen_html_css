@@ -236,7 +236,11 @@ button:hover{
     background-color: green;
     box-shadow: 0 0 15px green;
 }
-
+@media(max-width:768px){
+    button{
+        width: auto;
+    }
+}
 /*footer*/
 .footer {
     width: 100%;
