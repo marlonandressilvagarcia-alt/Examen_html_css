@@ -111,8 +111,8 @@ h1{
     border-radius: 50px;
 }
 .animales{
-    background-color: white;
-    color: rgb(4, 87, 4);
+    color: yellow;
+    background-color: rgb(75, 141, 172);
     border-radius: 50px;
 }
 .animales:hover{
@@ -127,16 +127,16 @@ h1{
     box-shadow: 0 0 15px;
 }
 .voluntarios{
-    background-color: lightblue;
-    color: blue;
+    color: yellow;
+    background-color: rgb(75, 141, 172);
     border-radius: 50px;
 }
 .voluntarios:hover{
     box-shadow: 0 0 15px;
 }
 .eventos{
-    background-color: lightgreen;
-    color: green;
+    color: yellow;
+    background-color: rgb(75, 141, 172);
     border-radius: 50px;
 }
 .eventos:hover{
@@ -165,7 +165,7 @@ h1{
     font-size: 30px;
 }
 .rescatados{
-    background-color: green;
+    background-color: rgb(75, 141, 172);
     color: white;
     display: flex;
     align-items: center;
@@ -179,7 +179,7 @@ h1{
     font-weight: 900;
 }
 .adoptados{
-    background-color: rgb(2, 68, 2);
+    background-color: rgb(37, 82, 102);
     color: white;
     display: flex;
     align-items: center;
@@ -193,7 +193,7 @@ h1{
     font-weight: 900;
 }
 .regresados{
-    background-color: rgb(71, 124, 71);
+    background-color: rgb(111, 185, 219);
     color: white;
     display: flex;
     align-items: center;
@@ -211,7 +211,7 @@ h1{
 .narrativa{
     background-color: white;
     margin-top: 25px;
-    width: 80%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,20 +225,29 @@ h1{
     font-size: 30px;
 }
 button{
-    background-color: rgb(65, 109, 65);
+    background-color: rgb(75, 141, 172);
     color: white;
     padding: 10px 20px;
     font-size: 20px;
-    width: 30%;
+    width: 30vw;
     border-radius: 50px;
 }
 button:hover{
-    background-color: green;
-    box-shadow: 0 0 15px green;
+    background-color: rgb(14, 74, 102);
+    box-shadow: 0 0 15px rgb(0, 109, 128);
+    transform: scale(1.2);
 }
 @media(max-width:768px){
     button{
         width: auto;
+    }
+    .narrativa{
+        width: auto;
+    }
+}
+@media(max-width:900px){
+    button{
+        width: 80%;
     }
 }
 /*footer*/
